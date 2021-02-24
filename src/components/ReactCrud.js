@@ -48,7 +48,7 @@ class CRUD extends Component {
   }
 
   editfor = (item, index) => {
-    this.setState({ showAddorEdit: true, companyname: item.companyname, vechicle: item.vechicle, price: item.price, isEdit: true, selectedindex: index })
+    this.setState({ showAddorEdit: true, companyname: item.companyname, vechicle: item.vechicle, price: item.price, isEdit: true, selectedindex: index, showTable: false })
   }
 
   delete = (index) => {
